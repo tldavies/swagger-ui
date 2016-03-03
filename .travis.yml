@@ -8,7 +8,7 @@ node_js:
 
 matrix:
   allow_failures:
-   - node_js: "5"
+    - node_js: "5"
 
 install:
   - export DISPLAY=:99.0
